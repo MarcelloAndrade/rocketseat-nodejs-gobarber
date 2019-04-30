@@ -16,6 +16,7 @@ class App {
 
   middlewares () {
     this.express.use(express.urlencoded({ extended: false }))
+
     this.express.use(
       session({
         store: new LokiStore({

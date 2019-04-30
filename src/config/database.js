@@ -1,3 +1,4 @@
+// run migration: npx sequelize db:migrate
 module.exports = {
   dialect: 'postgres',
   host: '127.0.0.1',
