@@ -1,3 +1,5 @@
+// npx sequelize migration:create --name create-users
+
 const bcrypt = require('bcryptjs')
 
 module.exports = (sequelize, DataTypes) => {
