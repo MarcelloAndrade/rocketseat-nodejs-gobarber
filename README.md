@@ -6,6 +6,7 @@ NodeJS + Postgresql
 
 ## Start 
 npm start
+
 Spript em package.json ("start": "nodemon src/index.js")
 
 ## Telas Sistema
